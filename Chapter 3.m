@@ -1,7 +1,11 @@
 #import <Foundation/Foundation.h>
 
 int main (int argc, const char * argv[]) {
-	FILE *wordFile = fopen("/tmp/words.txt", "r");
+	if (argc == 1) {
+		NSLog(@"you need to provide a file name");
+		return 1;
+	}
+	FILE *wordFile = fopen(argv[1], "r");
 	char word[100];
 	while (fgets(word, 100, wordFile)) {
 		word[strlen(word) - 1] = '\0';

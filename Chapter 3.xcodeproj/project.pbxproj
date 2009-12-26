@@ -10,6 +10,7 @@
 		8DD76F9A0486AA7600D96B5E /* Chapter 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Chapter 3.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* Chapter 3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* Chapter 3.1 */; };
+		E9E4940E10E6811A00DDCAF9 /* words.txt in Copy words.txt to tmp */ = {isa = PBXBuildFile; fileRef = E9E4940B10E6805700DDCAF9 /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +24,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E9E4941910E6813000DDCAF9 /* Copy words.txt to tmp */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = /tmp;
+			dstSubfolderSpec = 0;
+			files = (
+				E9E4940E10E6811A00DDCAF9 /* words.txt in Copy words.txt to tmp */,
+			);
+			name = "Copy words.txt to tmp";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +43,7 @@
 		32A70AAB03705E1F00C91783 /* Chapter 3_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chapter 3_Prefix.pch"; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* Chapter 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* Chapter 3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Chapter 3.1"; sourceTree = "<group>"; };
+		E9E4940B10E6805700DDCAF9 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			children = (
 				32A70AAB03705E1F00C91783 /* Chapter 3_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* Chapter 3.m */,
+				E9E4940B10E6805700DDCAF9 /* words.txt */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -99,6 +113,7 @@
 				8DD76F990486AA7600D96B5E /* Sources */,
 				8DD76F9B0486AA7600D96B5E /* Frameworks */,
 				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+				E9E4941910E6813000DDCAF9 /* Copy words.txt to tmp */,
 			);
 			buildRules = (
 			);
